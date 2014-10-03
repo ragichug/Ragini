@@ -1,0 +1,92 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".MainActivity4" >
+
+  <ScrollView
+      android:id="@+id/scrollView1"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentTop="true"
+      android:layout_x="4dp"
+      android:layout_y="-1dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="242dp"
+            android:orientation="vertical" >
+     <TextView
+                android:id="@+id/textView_fp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.71"
+                android:textColor="#000000"
+                android:text="\n\n      EDIT CONTACTS "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+      <TextView
+                android:id="@+id/textView_fp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.71"
+                android:textColor="#ff6347"
+                android:text="\n\n1.Contacts need to be added prior to activation of service.You must choose atleast one contact and there is no limit on number of contacts to be added in list\n\n\n2.You can add contacts by clicking on add button.Clicking on add button will forward you to window where you can select the name textfield and contact list will pop up.You can extract contacts from inbuilt contact list.You can even add email address of the recipient which is optional.\n\n\n3.You can even provide only phone number(without name) with email-id(optional) which is not currently existing in system contact list.Remember phone number must be provided prior to saving of contacts.\n\n\n4.You can also view, update and delete the existing contacts by clicking on a particular contacts listed in contact found list.\n\n\n5.Message will be sent to only those people who are added in the app's contacts list."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+     <TextView
+                android:id="@+id/textView_fp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.71"
+                android:textColor="#000000"
+                android:text="\n\n        EDIT MESSAGE "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+     <TextView
+                android:id="@+id/textView_fp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.71"
+                android:textColor="#ff6347"
+                android:text="\n\nEdit Message button will provide you with functionality of typing a message which will be sent to all the people added in contacts list of app.\n\nClicking on save Button will store the typed message."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+                android:id="@+id/textView_fp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.71"
+                android:textColor="#000000"
+                android:text="\n\n       PERSONAL INFO"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+                android:id="@+id/textView_fp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.71"
+                android:textColor="#ff6347"
+                android:text="\n\n here it will ask for your email_id and the password assciated with your g-email account.Please provide the correct information else application will terminate abnormally\n"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+                android:id="@+id/textView_fp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.71"
+                android:textColor="#000000"
+                android:text="\n       ACTIVATE / DEACTIVATE"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+                android:id="@+id/textView_fp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.71"
+                android:textColor="#ff6347"
+                android:text="\n\nOnce you will click on activate button you will be able to use the service provided by AvertRisk.\n\nTo use this service you have to keep in mind the following steps.\n\n1.You have to click on power button twice only when you feel unsafe, clicking on which messages and email will be sent thrice(each after every 3 minutes) to all those who are added in contacts list of app.\n\n2.You can deactivate the service by clicking on deactivate button.\n\n3.You need to have your GPS on so that your current location will be send to the recepient.\n\n4.You need to have balance for sending messages and mobile data on for sending emails to the recepient.\n\n5.Don't keep the app in activate mode unecessarily.Use it safely."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        </LinearLayout>
+
+    </ScrollView>
+
+</AbsoluteLayout>

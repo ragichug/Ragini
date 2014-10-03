@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/editText_repass"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="262dp"
+        android:ems="10"
+        android:hint="Re-Enter Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="312dp"
+        android:text="Save" />
+
+    <EditText
+        android:id="@+id/editText_pass"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="213dp"
+        android:ems="10"
+        android:hint="Create Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="36dp"
+        android:text="Fill One Time Login Details"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff6347" />
+
+    <EditText
+        android:id="@+id/editText_enterpass"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="160dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+</AbsoluteLayout>

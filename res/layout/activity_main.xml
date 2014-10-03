@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Widget.TextView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/avertrisk" />
+
+    <Button
+        android:id="@+id/tut"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/exit"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/tutorial2"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="39dp"
+          android:layout_alignParentRight="true"
+        android:background="@drawable/exit2"  />
+
+    <Button
+        android:id="@+id/visit_app"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/abt_App"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/b1" />
+
+    <Button
+        android:id="@+id/abt_App"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/tut"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/p1" />
+   
+</RelativeLayout>

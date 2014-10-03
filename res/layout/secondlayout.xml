@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/bb" />
+
+    <Button
+        android:id="@+id/activate"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/activatb" />
+
+    <Button
+        android:id="@+id/editContact"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/editMessage"
+        android:layout_alignParentRight="true"
+         android:layout_marginBottom="5dp"
+        android:background="@drawable/editcontact" />
+
+    <Button
+        android:id="@+id/editMessage"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/personinfo"
+        android:layout_alignParentRight="true"
+         android:layout_marginBottom="5dp"
+        android:background="@drawable/editm" />
+
+    <Button
+        android:id="@+id/personinfo"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/activate"
+        android:layout_alignParentRight="true"
+         android:layout_marginBottom="5dp"
+        android:background="@drawable/personal" />
+
+</RelativeLayout>

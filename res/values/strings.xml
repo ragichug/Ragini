@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WomenSafety</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="note2">NOTE : Only your gmail id and its corresponding password needs to be provided if you want to send alert mail to required people.</string>
+	<string name="note1">NOTE : Only gmail id of required people needs to be provided if you want to send alert mail them.</string>
+</resources>

@@ -1,0 +1,63 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  
+    tools:context=".MainActivity4" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:layout_x="4dp"
+        android:layout_y="51dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="242dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_fp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.71"
+                android:textColor="#ff6347"
+                android:text="Hello , please read this to understand about the features of this Women Security app. This app is designed to provide women safety.You can activate this service whenever you want to by clicking on activate button. Clicking on power button twice will then forward alert msg to all the recepients added by you in contacts list. PLEASE ENSURE that all the details filled by you are correct nor the services will not work properly."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/check_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="59dp"
+        android:layout_y="284dp"
+        android:textSize="21sp"
+        android:textColor="#000000"
+        android:text="Don&apos;t show again" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dp"
+        android:layout_y="1dp"
+        android:textColor="#000000"
+        android:text="INTRODUCTION"
+        
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button_skip"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="328dp"
+        android:text="Skip" />
+
+</AbsoluteLayout>
